@@ -5,5 +5,6 @@ const uploadController = require('../../src/controller/uploadController');
 
 // POST route for uploading an image
 router.post('/image', uploadController.uploadImage);
+router.delete('/image', uploadController.deleteImage);
 
 module.exports = router;
